@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Practice_Task</string>
+    <string name="no_internet">No Internet</string>
+    <string name="login">Login</string>
+    <string name="mobile_number">Enter Mobile Number</string>
+    <string name="mobile_number_cannot_be_empty">Mobile Number cannot be empty</string>
+    <string name="verify">Verify</string>
+    <string name="correct">Correct</string>
+    <string name="please_enter_proper_number">Please enter proper mobile number </string>
+    <string name="api_response">API RESPONSE</string>
+    <string name="name">Name:</string>
+    <string name="mobile_number_">Mobile Number</string>
+    <string name="customer_id">Customer ID:</string>
+    <string name="email_id">Email ID:</string>
+    <string name="save_in_roomdb">Save In RoomDB</string>
+    <string name="user_not_exits">User Does Not Exists</string>
+    <string name="successfully_stored_in_roomDB">Successfully stored in RoomDB</string>
+</resources>
