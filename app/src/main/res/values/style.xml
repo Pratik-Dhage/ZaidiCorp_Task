@@ -35,6 +35,11 @@
         <item name="android:textSize">@dimen/subtitle2_text_size</item>
     </style>
 
-
+     <!--MainConstraintStyle-->
+    <style name="MainConstraintStyle">
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
 
 </resources>
