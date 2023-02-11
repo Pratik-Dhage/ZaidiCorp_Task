@@ -3,9 +3,9 @@
 
     <corners android:radius="@dimen/_10sdp" />
 
-    <solid android:color="@color/button_bg_color"/>
+    <solid android:color="@color/purple_700"/>
 
     <stroke android:width="@dimen/_1sdp"
-        android:color="@color/button_shadow_color"/>
+        android:color="@color/purple_700"/>
 
 </shape>

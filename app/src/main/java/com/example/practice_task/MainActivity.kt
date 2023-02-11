@@ -1,9 +1,11 @@
 package com.example.practice_task
 
 import android.content.Intent
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import com.example.practice_task.databinding.ActivityMainBinding
@@ -31,6 +33,13 @@ class MainActivity : AppCompatActivity() {
     private fun initializeFields() {
         binding = DataBindingUtil.setContentView(this@MainActivity, R.layout.activity_main)
         view = binding.root //for snackBar
+
+        val currentNightMode = AppCompatDelegate.getDefaultNightMode()
+        if (currentNightMode == AppCompatDelegate.MODE_NIGHT_YES) {
+            window.decorView.setBackgroundColor(Color.WHITE)
+        } else {
+            window.decorView.setBackgroundColor(Color.TRANSPARENT)
+        }
 
     }
 

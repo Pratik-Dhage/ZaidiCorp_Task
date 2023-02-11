@@ -38,8 +38,13 @@
      <!--MainConstraintStyle-->
     <style name="MainConstraintStyle">
         <item name="android:background">@color/white</item>
+        <item name="backgroundTint">@color/white</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="CustomAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
     </style>
 
 </resources>

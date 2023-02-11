@@ -1,8 +1,10 @@
 package com.example.practice_task.login
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import com.example.practice_task.R
@@ -90,6 +92,12 @@ class LoginActivity : AppCompatActivity() {
         viewModel = ViewModelProvider(this)[LoginViewModel::class.java]
         binding.viewModel = viewModel
 
+        val currentNightMode = AppCompatDelegate.getDefaultNightMode()
+        if (currentNightMode == AppCompatDelegate.MODE_NIGHT_YES) {
+            window.decorView.setBackgroundColor(Color.WHITE)
+        } else {
+            window.decorView.setBackgroundColor(Color.TRANSPARENT)
+        }
 
     }
 
