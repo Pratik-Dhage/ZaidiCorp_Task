@@ -15,4 +15,13 @@
     <string name="save_in_roomdb">Save In RoomDB</string>
     <string name="user_not_exits">User Does Not Exists</string>
     <string name="successfully_stored_in_roomDB">Successfully stored in RoomDB</string>
+
+    <string name="get_user_location">Get User Location</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="save_in_local_db">Save In Local DB</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>

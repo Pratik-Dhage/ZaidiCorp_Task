@@ -26,4 +26,21 @@
     <color name="btn_bg_color2">#FFFFFFFF</color>
     <color name="light_blue">#4CB2EA</color>
 
+
+    <color name="borderColor">#C4BDBD</color>
+    <color name="turquoise">#1D9CA2</color>
+    <color name="green">#69BE28</color>
+    <color name="darkRed">#8B0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="dark_grey">#63666A</color>
+    <color name="skyBlue">#BED0E8</color>
+
+
+    <!--TextColors-->
+    <color name="textBlue">#3388ff</color>
+    <color name="textRed">#E60000</color>
+    <color name="textGreen">#2A872E</color>
+
+
+
 </resources>
