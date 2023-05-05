@@ -53,7 +53,7 @@
 
         <TextView
             android:id="@+id/labelDistance"
-            android:text="Distance:"
+            android:text="Distance in Km:"
             android:textSize="@dimen/_14ssp"
             android:textColor="@color/black"
             android:layout_marginStart="@dimen/_10sdp"

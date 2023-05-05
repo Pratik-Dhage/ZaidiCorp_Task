@@ -20,6 +20,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.practice_task.databinding.FragmentMapBinding;
@@ -180,8 +181,11 @@ public class MapFragment extends Fragment {
 
                     // Convert the distance to kilometers
                     float distanceInKm = distance[0] / 1000;
+                    String formattedDistanceInKm = String.format("%.2f", distanceInKm);
 
-                    System.out.println("Distance:"+ distanceInKm);
+                   TextView txtDistance = getActivity().findViewById(R.id.txtDistance);
+                   txtDistance.setText(formattedDistanceInKm);
+                    System.out.println("Distance in Km:"+ distanceInKm);
                     // Log the distance
                     Log.d("MapsActivity", "Distance from user to Lodha Xperia Mall: " + distanceInKm + " km");
 
